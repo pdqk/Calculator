@@ -85,6 +85,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /**
+     * Do thời gian nên em mới xử lý được với số có 1 chữ số.
+     *
+     * Số có 2 chữ số trở lên xử lý phức tạp hơn chút,
+     * nhưng phần logic tính toán vẫn giữ nguyên.
+     *
+     * Em cảm ơn!
+     * **/
     fun calculate(binding: ActivityMainBinding){
         val stack = ArrayList<Char>()
         val queue = ArrayList<Char>()
